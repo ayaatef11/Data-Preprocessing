@@ -4,9 +4,19 @@
 
 ### For the `App` Column:
 - Removed **null values**.
+  
+  ![image](https://github.com/user-attachments/assets/59c11079-cd90-4f27-921a-d0177512d3f5)
+
 - Stripped **leading/trailing spaces** from app names.
+  ![image](https://github.com/user-attachments/assets/1235e882-4a5a-4527-a5c8-e26126ff2ce7)
+
 - Dropped **duplicate rows** as they could cause conflicts (since no app can have multiple attributes simultaneously).
+  
+- ![image](https://github.com/user-attachments/assets/ea94f810-5112-4cc9-ad8a-50b555da6cf8)
+
 - Removed **special characters**.
+
+![image](https://github.com/user-attachments/assets/a987de02-c108-4026-8984-05c8d65297c6)
 
 ### For the `Category` Column:
 - Removed this column as it was deemed **unnecessary** for this analysis.
