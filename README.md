@@ -1,8 +1,8 @@
-# Google Play Store Data Preprocessing
+# Google Play Store Data Preprocessing 📊
 
-## 1. Data Cleansing
+## 1. Data Cleansing 📈
 
-### For the `App` Column:
+### For the `App` Column:📝
 - Removed **null values**.
   
   ![image](https://github.com/user-attachments/assets/59c11079-cd90-4f27-921a-d0177512d3f5)
@@ -18,7 +18,7 @@
 
 ![image](https://github.com/user-attachments/assets/a987de02-c108-4026-8984-05c8d65297c6)
 
-### For the `Category` Column:
+### For the `Category` Column:🗂️
 - Removed this column as it was deemed **unnecessary** for this analysis.
 ![image](https://github.com/user-attachments/assets/1f25ce1a-c786-45e9-8b86-4b3b3ab4cc61)
 
