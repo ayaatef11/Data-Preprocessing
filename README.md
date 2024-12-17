@@ -58,32 +58,64 @@
 - ![image](https://github.com/user-attachments/assets/3bf41965-b564-4578-992a-cec479eff251)
 
 ### For the `Type` Column:
--Remove null values
--Replace zero values with free
+- Remove null values
+- Replace zero values with free
 ![image](https://github.com/user-attachments/assets/c07f2657-aef5-41ce-83ed-b4dda672da14)
 
 ### For the `Price ` Column:
--Scale the values by removing '$' characters
+- Scale the values by removing '$' characters
 ![image](https://github.com/user-attachments/assets/1b7330bd-2c8c-4c95-8507-27255c13b14b)
 
--turning it to be numeric and for inconsistent values like Everyone it is replaced by 0 to say it is free
+- turning it to be numeric and for inconsistent values like Everyone it is replaced by 0 to say it is free
 ![image](https://github.com/user-attachments/assets/2f7ebf05-40c9-45c8-9ed2-0253e25dbd8a)
 
--Visualize the distribution of the values
+- Visualize the distribution of the values
 ![image](https://github.com/user-attachments/assets/2dcf2d8a-67bc-4419-b4a9-3dd75e4c91cc)
 
 ### For `Content Rating` Column:
--Drop the null values
+- Drop the null values
 ![image](https://github.com/user-attachments/assets/9829350c-6e27-49f5-a6b8-7f633471ebc1)
 
--Drop unrated values
+- Drop unrated values
 ![image](https://github.com/user-attachments/assets/098da710-adc4-4c62-bd81-f9384f5aec94)
 
+### For the `Genres' Column:
+-Filter Genres that contain numbers like 'February 11, 2018' cell
 
-##For columns interactions:
+![image](https://github.com/user-attachments/assets/9854fb9f-d0ce-4baa-b5ed-9c0dd0ec59d7)
+
+-Transform Genres into multiple columns
+
+![image](https://github.com/user-attachments/assets/e477a731-c539-4713-983b-03c0d2209232)
+
+
+### For the `last updated` column:
+- use feature splitting to split it into multiple columns
+![image](https://github.com/user-attachments/assets/b4997347-73c1-42dc-a016-bb48ca258118)
+- convert the column to be of type date and the inconsistent values are replaced by nulls
+
+  ![image](https://github.com/user-attachments/assets/6223efb9-ba2b-4f20-8f50-440cd45e1311)
+- remove null values
+- ![image](https://github.com/user-attachments/assets/541d8e79-7f90-4994-87b9-62826792d18d)
+
+### For the `Android ver` column:
+- drop null values
+  ![image](https://github.com/user-attachments/assets/28ca9a5c-a8a7-4b5f-9765-4d72b8feaee0)
+
+- replace inconsistent vlaues with nulls and then removes them
+- ![image](https://github.com/user-attachments/assets/7f207582-8a26-4353-9d47-e926ca8c2c9c)
+- use feature splitting to split it
+- ![image](https://github.com/user-attachments/assets/71c00bfb-f501-4fcd-8735-b7540719dda3)
+
+### For the `current ver` column:
+- make it match a specific expression
+  ![image](https://github.com/user-attachments/assets/e7cf6643-6142-4908-a24e-a052ab4fe465)
+
+
+### For the interactions:
 check the consistent between the app price and app type as the free app must have the price 0 and the opposite
-![image](https://github.com/user-attachments/assets/e7aaec30-d0e4-4860-8979-2a70797da622)
 
+![image](https://github.com/user-attachments/assets/e7aaec30-d0e4-4860-8979-2a70797da622)
 
 ---
 
