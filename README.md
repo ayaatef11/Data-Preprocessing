@@ -48,8 +48,6 @@
 - Filled **null values** with the **median**.
 - ![image](https://github.com/user-attachments/assets/1697f8a4-6582-42e5-bdd9-75de6e5fdc85)
 
-- Used **stripplot** to visualize the distribution.
-![image](https://github.com/user-attachments/assets/0112018a-bba7-42ff-834d-895b132bb3f8)
 
 ### For the `Installs` Column:
 - Removed **inconsistent characters** (e.g., '+' and ',' symbols).
@@ -104,8 +102,7 @@
 
 - replace inconsistent vlaues with nulls and then removes them
 - ![image](https://github.com/user-attachments/assets/7f207582-8a26-4353-9d47-e926ca8c2c9c)
-- use feature splitting to split it
-- ![image](https://github.com/user-attachments/assets/71c00bfb-f501-4fcd-8735-b7540719dda3)
+
 
 ### For the `current ver` column:
 - make it match a specific expression
@@ -117,8 +114,15 @@ check the consistent between the app price and app type as the free app must hav
 
 ![image](https://github.com/user-attachments/assets/e7aaec30-d0e4-4860-8979-2a70797da622)
 
----
+### 2.Detecting Outliers:
+### For the `Reviews` Column:
+- Used **stripplot** to visualize the distribution.
+![image](https://github.com/user-attachments/assets/0112018a-bba7-42ff-834d-895b132bb3f8)
+### 3.Feature Engineering:
 
+### For the `Android ver` column:
+- use feature splitting to split it
+- ![image](https://github.com/user-attachments/assets/71c00bfb-f501-4fcd-8735-b7540719dda3)
 ## Summary
 The preprocessing steps aim to **clean**, **normalize**, and **transform** the dataset to ensure consistency and accuracy. This process removes inconsistencies and makes the data ready for analysis and further processing.
 
